@@ -1,44 +1,41 @@
 .side {
-    height: auto;
-    overflow: hidden;
-    background-color: rgb(183, 183, 183);
-    transition: 0.5s;
+    display: block;
+    background-color: rgb(77, 77, 77);
+    color: aliceblue;
+    transition: 30s;
     z-index: 1;
-    position: fixed;
-}
-
-.sidebar .closebtn {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
 }
 
 
-.openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #111;
-    color: white;
-    padding: 10px 15px;
-    border: none;
+.menu {
+    position: relative;
+    display: inline-block;
 }
+
+
+button {
+    font-size: 25px;
+    padding: 6px 15px;
+
+}
+
+
+button:hover {
+    background-color: rgb(187, 187, 187);
+    border-width: 3px;
+}
+
 
 .side a {
-    display: block;
+    color: rgb(82, 206, 105);
 }
+
+
 
 a:hover {
-    color: rgb(0, 125, 13)
-}
-
-a:visited {
-    color: rgb(0, 204, 184);
-}
-
-#left {
-    transition: margin-left .5s;
-    padding: 20px;
-
+    color: rgb(110, 241, 255);
 }
