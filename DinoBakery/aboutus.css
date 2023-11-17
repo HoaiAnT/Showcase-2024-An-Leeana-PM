@@ -7,18 +7,24 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 
+.menu {
+    position: relative;
+    display: inline-block;
+}
 
-button{
+
+button {
     font-size: 25px;
-    padding: 8px 23px;
+    padding: 6px 15px;
 
 }
 
 
-button:hover{
+button:hover {
     background-color: rgb(187, 187, 187);
     border-width: 3px;
 }
