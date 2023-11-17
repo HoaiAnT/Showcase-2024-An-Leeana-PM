@@ -1,4 +1,4 @@
-.side{
+.side {
     height: auto;
     overflow: hidden;
     background-color: rgb(183, 183, 183);
@@ -7,20 +7,37 @@
     position: fixed;
 }
 
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 
-.side a{
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.side a {
     display: block;
 }
 
 a:hover {
-    color:rgb(0, 125, 13)
+    color: rgb(0, 125, 13)
 }
 
 a:visited {
     color: rgb(0, 204, 184);
 }
 
-#left{
+#left {
     transition: margin-left .5s;
     padding: 20px;
 
