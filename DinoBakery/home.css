@@ -1,3 +1,53 @@
 header {
     font-size:100px;
+    color:white;
+}
+
+body{
+    background-image: url(background.png)
+}
+
+h1{
+    margin-left:850px;
+    font-size:60px;
+    color:white;
+}
+figcaption{
+    color:white;
+    font-size:25px;
+}
+
+.cap{
+    color:white;
+    font-size:25px;
+}
+
+h2{
+    color:white;
+    font-size:55px;
+}
+
+.container{
+    margin-left:250px;
+    margin-bottom:100px;
+}
+
+.sig {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.sig h2{
+    text-align: center;
+    width: 100%;
+}
+
+.ond{
+    border-style:hidden;
+    background-color:rgb(111, 146, 162);
+    padding:8px;
+    margin:20px;
 }
