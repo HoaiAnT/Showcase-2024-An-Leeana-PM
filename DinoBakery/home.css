@@ -4,14 +4,12 @@ header {
 }
 
 body{
-    background-image: url(background.png)
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size:2100px 100%;
 }
 
-h1{
-    margin-left:850px;
-    font-size:60px;
-    color:white;
-}
+
 figcaption{
     color:white;
     font-size:25px;
@@ -22,9 +20,21 @@ figcaption{
     font-size:25px;
 }
 
-h2{
+h3{
     color:white;
     font-size:55px;
+    text-decoration: underline overline;
+}
+
+h2{
+    color:black;
+    text-decoration: underline;
+    font-size:45px;
+}
+
+p{
+    color:black;
+    font-size:30px;
 }
 
 .container{
@@ -38,9 +48,12 @@ h2{
     flex-wrap: wrap;
     margin-left:200px;
     margin-right:200px;
+    margin-bottom:100px;
+    border-style:hidden;
+    background-color:rgb(136, 115, 97);
 }
 
-.sig h2{
+.sig h3{
     text-align: center;
     width: 100%;
 }
@@ -50,4 +63,21 @@ h2{
     background-color:rgb(111, 146, 162);
     padding:8px;
     margin:20px;
+}
+.oreo{
+    display:flex;
+    flex-direction:row;
+    width:75%;
+    border-style:hidden;
+    border-radius:50px;
+    background-color:rgb(108, 139, 108);
+    margin-left:200px;
+    padding:25px;
+}
+.or1{
+    border-style:hidden;
+    background-color:rgb(218, 218, 172);
+    margin:20px;
+    text-indent:25px;
+    padding:45px;
 }
