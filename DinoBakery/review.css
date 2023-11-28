@@ -1,8 +1,27 @@
 body {
     background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 2100px 1840px;
     color: aliceblue;
     font-size: 25px;
 }
+
+
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+
+
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .each-one-has-a-reference{
@@ -21,7 +40,6 @@ body {
     border-radius: 8px;
     width: 59%;
     margin-top: 1%;
-    padding-bottom: 30px;
 }
 
 
@@ -60,9 +78,7 @@ body {
 
 
 footer {    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     color: black;
     background-color: #9EB5E3;
     border-style: solid;
@@ -72,7 +88,13 @@ footer {
     margin-top: 25px;
     padding-bottom: 45px;
     width: 50%;
+}
 
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -81,4 +103,14 @@ table {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.side a {
+    color: rgb(82, 206, 105);
+}
+
+
+
+a:hover {
+    color: rgb(110, 241, 255);
 }
