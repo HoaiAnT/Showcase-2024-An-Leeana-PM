@@ -1,27 +1,28 @@
 header {
     font-size:100px;
-    color:white;
+    color:black;
+    background-color:#8a7353;
+    padding:20px;
+    margin-bottom:40px;
 }
 
 body{
-    background-image: url(background.png);
-    background-repeat: no-repeat;
-    background-size:2100px 100%;
+    background-color:#C6B395;
 }
 
 
 figcaption{
-    color:white;
+    color:black;
     font-size:25px;
 }
 
 .cap{
-    color:white;
+    color:black;
     font-size:25px;
 }
 
 h3{
-    color:white;
+    color:black;
     font-size:55px;
     text-decoration: underline overline;
 }
@@ -30,6 +31,7 @@ h2{
     color:black;
     text-decoration: underline;
     font-size:45px;
+    text-align:center;
 }
 
 p{
@@ -49,8 +51,6 @@ p{
     margin-left:200px;
     margin-right:200px;
     margin-bottom:100px;
-    border-style:hidden;
-    background-color:rgb(136, 115, 97);
 }
 
 .sig h3{
@@ -60,9 +60,10 @@ p{
 
 .ond{
     border-style:hidden;
-    background-color:rgb(111, 146, 162);
-    padding:8px;
-    margin:20px;
+    border-radius: 10px;;
+    background-color:rgb(104, 132, 149);
+    padding:15px;
+    margin:15px;
 }
 .oreo{
     display:flex;
@@ -73,11 +74,116 @@ p{
     background-color:rgb(108, 139, 108);
     margin-left:200px;
     padding:25px;
+    margin-bottom:100px;
 }
 .or1{
     border-style:hidden;
     background-color:rgb(218, 218, 172);
     margin:20px;
     text-indent:25px;
-    padding:45px;
+    padding:50px;
+    border-radius:5px;
+}
+
+.ras{
+    display:flex;
+    flex-direction:row;
+    width:75%;
+    border-style:hidden;
+    border-radius:50px;
+    background-color:rgb(108, 139, 108);
+    margin-left:200px;
+    padding:25px;
+    margin-bottom:100px;
+}
+
+.ra1{
+    border-style:hidden;
+    background-color:rgb(218, 218, 172);
+    margin:20px;
+    text-indent:25px;
+    padding:50px;
+    border-radius:5px;
+}
+
+.chip {
+    display:flex;
+    flex-direction:row;
+    width:75%;
+    border-style:hidden;
+    border-radius:50px;
+    background-color:rgb(108, 139, 108);
+    margin-left:200px;
+    padding:25px;
+    margin-bottom:100px;
+}
+
+.ch1 {
+    border-style:hidden;
+    background-color:rgb(218, 218, 172);
+    margin:20px;
+    text-indent:25px;
+    padding:50px;
+    border-radius:5px;
+}
+.tiramisu{
+    display:flex;
+    flex-direction:row;
+    width:75%;
+    border-style:hidden;
+    border-radius:50px;
+    background-color:rgb(108, 139, 108);
+    margin-left:200px;
+    padding:25px;
+    margin-bottom:100px;
+}
+.ti1{
+    border-style:hidden;
+    background-color:rgb(218, 218, 172);
+    margin:20px;
+    text-indent:25px;
+    padding:50px;
+    border-radius:5px;
+}
+.icon{
+    display:flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    margin:100px;
+}
+
+.cookie{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:300px;
+    margin-right:200px;
+    margin-bottom:100px;
+}
+
+.cookie h3{
+    text-align:center;
+    width:100%
+}
+.cookie .ond{
+    padding:25px;
+    margin-left:30px;
+}
+.cake {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:300px;
+    margin-right:200px;
+    margin-bottom:100px;
+}
+.cake h3{
+    text-align:center;
+    width:100%
+}
+.cake .ond{
+    padding:25px;
+    margin-left:30px;
 }
