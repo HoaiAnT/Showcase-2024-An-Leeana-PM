@@ -11,7 +11,8 @@ header {
     justify-content: center;
     align-items: center;
     padding-top: 90px;
-    background-color: #8a7353;
+    background-color: #554536;
+    color: rgb(247, 244, 158);
 }
 
 
@@ -87,15 +88,15 @@ h1{
 
 footer {    
     text-align: center;
-    color: black;
-    background-color: #4c576e;
+    color: aliceblue;
+    background-color: #554536;
     border-style: solid;
     border-width: 4px;
-    border-color: #4c576e;
+    border-color: #554536;
     border-radius: 8px;
     margin-top: 25px;
     padding-bottom: 45px;
-    width: 50%;
+    width: 80%;
 }
 
 
@@ -103,6 +104,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -111,21 +113,46 @@ table {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-align: center;
+    
 }
 
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    padding: 4px;
+    
+}
+
+
+
 .nav a {
-    color: rgb(82, 206, 105);
+    color: rgb(247, 244, 158);
 }
 
 
 
 a:hover {
-    color: rgb(110, 241, 255);
+    color: #3e77bd;
 }
 
 
 .nav{
-    background-color: #4e694d;
+    background-color: #554536;
+}
+
+
+.learn{
+    padding-left: 60px;
+}
+
+
+.community th{
+    padding-left: 90px;
+
 }
 
 .community{
@@ -133,4 +160,6 @@ a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    margin-top: -130px;
+    padding-right: 60px;
 }
