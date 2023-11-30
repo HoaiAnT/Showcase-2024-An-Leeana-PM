@@ -1,12 +1,42 @@
 header {
-    font-size:100px;
-    color:black;
-    background-color:#554536;
-    color:rgb(247, 244, 158);
-    padding:20px;
-    margin-bottom:40px;
-    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    background-color: #554536;
+    color: rgb(214, 212, 141);
+    font-size:80px;
+    padding-top:15px;
+    padding-bottom:15px;
 }
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    padding-right: 150px;
+    font-size:25px;
+    margin-bottom:100px;
+    padding-bottom:25px;
+}
+
+
+
+.nav a {
+    color: rgb(214, 212, 141);
+}
+
+
+
+a:hover {
+    color: #3e77bd;
+}
+
+
+.nav{
+    background-color: #554536;
+}
+
 
 body{
     background-color:#C6B395;
@@ -63,7 +93,7 @@ p{
 .ond{
     border-style:hidden;
     border-radius: 10px;;
-    background-color:rgb(104, 132, 149);
+    background-color:rgb(162, 126, 111);
     padding:15px;
     margin:15px;
 }
@@ -275,4 +305,9 @@ footer {
     width: 85%;
     margin-left:150px;
 }
-
+.fa-solid{
+    padding-left:120px;
+    padding-top:10px;
+    font-size:50px;
+    color:black
+}
