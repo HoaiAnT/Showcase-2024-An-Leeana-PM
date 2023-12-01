@@ -11,7 +11,36 @@
 
 <body>
     <div class="flex-container">
-        <header> Jurassic Olive Bake </header>
+
+        <header> 
+            <section class="bar">
+                <a type="button">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </section>
+            
+            Jurassic Olive Bake 
+
+            <section class="loca">
+                <a type="button">
+                    <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/ordernow.html"><i class="fa-solid fa-location-dot"></i></a>
+                </a>
+            </section>
+
+            <section class="cart">
+                <a  type="button" >
+                    <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/ShoppingCart.html"> <i class="fa-solid fa-cart-shopping"></i> </a>
+                </a>
+            </section>
+
+            <section class="search">
+                <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                    <input type="text" placeholder="Search.." name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+            </section>
+        </header>
+        
         <nav>
             <section class="nav">
 
@@ -31,12 +60,62 @@
         </nav>
 
         <div class="container">
-            <img src="Screenshot 2023-11-28 151629.png" width="85%" height="800">
+            <img src="Screenshot 2023-12-01 142235.png" width="85%" height="800">
         </div>
+        <aside>
+            <section class="sidebar">
+                <h4 class="side">Menu</h4>
+                <ul>
+                    <a href="#signature" class="sidebar">Siganture</a>
+                    <li>
+                        <a href="#oreo" class="sidebar">Oreo Ice Cream Cake</a>
+                    </li>
+                    <li>
+                        <a href="#cotta" class="sidebar">Rasberry Panna Cotta</a>
+                    </li>
+                    <li>
+                        <a href="#chip" class="sidebar">Chocolate chip cookie</a>
+                    </li>
+                    <li>
+                        <a href="#tira" class="sidebar">Tiramisu Cake</a>
+                    </li>
+                </ul>
+                <ul>
+                    <a href="#cookie" class="sidebar">Cookie</a>
+                    <li>
+                        <a href="#macaron" class="sidebar">Macaron</a>
+                    </li>
+                    <li>
+                        <a href="#crinkle" class="sidebar">Crinkle Cookie</a>
+                    </li>
+                    <li>
+                        <a href="#chocolate" class="sidebar">Chocolate Chip Cookie</a>
+                    </li>
+                    <li>
+                        <a href="#alfajor" class="sidebar">Alfajor</a>
+                    </li>
+                </ul>
+                <ul>
+                    <a href="#cake" class="sidebar">Cake</a>
+                    <li>
+                        <a href="#" class="sidebar"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <a href="#beverages" class="sidebar">Beverages</a>
+                </ul>
+                <ul>
+                    <a href="#pudding" class="sidebar">Pudding/Mousse</a>
+                </ul>
+                <ul>
+                    <a href="#pastry" class="sidebar">Pastry/Treats</a>
+                </ul>
+            </section>
+        </aside>
 
-        <section class="sig">
+        <section class="sig" id="signature">
             <h3>Signatures</h3>
-            <section class="ond">
+            <section class="ond" id="oreo">
                 <figure>
                     <img src="https://houseofnasheats.com/wp-content/uploads/2023/03/Oreo-Dessert-Recipe-24.jpg"
                         width="250" height="350">
@@ -49,7 +128,8 @@
                     </figurecaption>
                 </figure>
             </section>
-            <section class="ond">
+
+            <section class="ond" id="cotta">
                 <figure>
                     <img src="https://www.abakingjourney.com/wp-content/uploads/2022/03/Raspberry-Panna-Cotta-Feature.jpg"
                         width="250" height="350">
@@ -64,7 +144,7 @@
             </section>
 
 
-            <section class="ond">
+            <section class="ond" id="chip">
                 <figure>
                     <img src="https://assets.epicurious.com/photos/62cc51a66f0eae1af0de3a92/1:1/w_2240,c_limit/ChocolateChipCookies_RECIPE_070722_36748.jpg"
                         width="250" height="350">
@@ -79,7 +159,7 @@
             </section>
 
 
-            <section class="ond">
+            <section class="ond" id="tira">
                 <figure>
                     <img src="https://bakingamoment.com/wp-content/uploads/2023/10/IMG_3431-tiramisu-cake-720x720.jpg"
                         width="250" height="350">
@@ -177,10 +257,10 @@
         </section>
 
 
-        <section class="cookie">
+        <section class="cookie" id="cookie">
             <h3>Cookies</h3>
 
-            <section class="ond">
+            <section class="ond" id="macaron">
                 <img src="https://images.immediate.co.uk/production/volatile/sites/2/2022/05/Macarons-fb56db8.jpg?quality=90&webp=true&resize=375,341"
                     width="250" height="350">
                 <figcaption class="fig">Macaron</figcaption>
@@ -192,7 +272,7 @@
                 </figurecaption>
             </section>
 
-            <section class="ond">
+            <section class="ond" id="crinkle">
                 <img src="https://www.momontimeout.com/wp-content/uploads/2021/12/chocolate-crinkle-cookies.jpeg"
                     width="250" height="350">
                 <figcaption class="fig">Crinkle Cookie</figcaption>
@@ -204,10 +284,10 @@
                 </figurecaption>
             </section>
 
-            <section class="ond">
+            <section class="ond" id="chocolate">
                 <img src="https://www.modernhoney.com/wp-content/uploads/2023/08/Nestle-Toll-House-Chocolate-Chip-Cookies-Recipe-crop.jpg"
                     width="250" height="350">
-                <figcaption class="fig">Chocolate Chip ccokie</figcaption>
+                <figcaption class="fig">Chocolate Chip cookie</figcaption>
                 <figurecation class="cap">$8.35</figurecation>
                 <figurecaption>
                     <a type="button" class="but" href="#bottom">
@@ -216,7 +296,7 @@
                 </figurecaption>
             </section>
 
-            <section class="ond">
+            <section class="ond" id="alfajor">
                 <img src="https://www.elmundoeats.com/wp-content/uploads/2021/07/Argentine-alfajores-on-a-rack.jpg"
                     width="250" height="350">
                 <figcaption class="fig">Alfajor</figcaption>
@@ -229,7 +309,7 @@
             </section>
         </section>
 
-        <section class="cake">
+        <section class="cake" id="cake">
             <h3>Cakes</h3>
 
             <section class="ond">
@@ -330,7 +410,7 @@
 
         </section>
 
-        <section class="beverages">
+        <section class="beverages" id="beverages">
             <h3>Beverages</h3>
 
             <section class="ond">
@@ -430,7 +510,7 @@
             </section>
         </section>
 
-        <section class="pudding">
+        <section class="pudding" id="pudding">
             <h3>Pudding/Mousse</h3>
 
             <section class="ond">
@@ -532,7 +612,7 @@
             </section>
         </section>
 
-        <section class="pastry">
+        <section class="pastry" id="pastry">
             <h3>Pastry/Treats</h3>
 
             <section class="ond">
@@ -581,6 +661,8 @@
                         <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                 </figurecaption>
+            </section>
+            
 
             <section class="ond">
                 <img src="https://www.thecountrycook.net/wp-content/uploads/2022/01/thumbnail-Strawberry-Jelly-Filled-Biscuit-Donuts.jpg"
