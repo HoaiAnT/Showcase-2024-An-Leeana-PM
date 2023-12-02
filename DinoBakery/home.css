@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 header {
     display:flex;
     justify-content: center;
@@ -8,6 +14,7 @@ header {
     font-size:80px;
     padding-top:15px;
     padding-bottom:15px;
+    font-family: 'Lobster', sans-serif;
 }
 .nav{
     display: flex;
@@ -55,12 +62,14 @@ figcaption{
 }
 
 h3{
+    font-family: 'Playfair Display', serif;
     color:black;
     font-size:55px;
     text-decoration: underline overline;
 }
 
 h2{
+    font-family: 'Playfair Display', serif;
     color:black;
     text-decoration: underline;
     font-size:45px;
@@ -68,6 +77,7 @@ h2{
 }
 
 p{
+    font-family: 'Pacifico', cursive;
     color:black;
     font-size:30px;
 }
@@ -340,25 +350,25 @@ footer {
     font-size:50px;
     margin-left:150px;
 }
-
-{
-    font-family: Arial;
-  }
+.search {
+    margin-right:50px;
+    margin-left:20px;
+}
   
   * {
     box-sizing: border-box;
   }
   
-  form.example input[type=text] {
+form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
     float: left;
     width: 80%;
     background: #f1f1f1;
-  }
+}
   
-  form.example button {
+form.example button {
     float: left;
     width: 20%;
     padding: 10px;
@@ -369,15 +379,42 @@ footer {
     border-left: none;
     cursor: pointer;
     border-style: solid;
-  }
+}
   
-  form.example button:hover {
+form.example button:hover {
     background: #0b7dda;
-  }
+}
   
-  form.example::after {
+form.example::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
+.sidebar{
+    display:flex;
+    align-content:center;
+    flex-wrap:wrap;
+    width:85%;
+    margin-left:10px;
+    align-content:center;
+    justify-content:center;
+}
+.sidebar h4{
+    text-align:center;
+    width:100%;
+    font-size:35px;
+}
+
+.name a{
+    font-size:25px;
+    color:rgb(196, 1, 1);
+}
+.li a{
+    color:rgb(70, 183, 145);
+}
+.card{
+    width:100%;
+    font-size:50px;
+    margin-left:100px;
+}
 
