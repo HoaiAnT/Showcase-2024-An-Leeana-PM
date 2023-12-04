@@ -1,5 +1,5 @@
 body {
-    background-color:#C6B395;
+    background-color: #C6B395;
     color: rgb(0, 0, 0);
     font-size: 25px;
 
@@ -8,7 +8,7 @@ body {
 
 
 header {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 90px;
@@ -17,15 +17,26 @@ header {
 }
 
 
-h1{
-    display:flex;
+h1 {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
+h1.about{
+    margin-top: 3em;
+    border-style: solid;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 43%;
+    border-left: hidden;
+    border-right:hidden;
+}
 
-.nav{
+
+
+.nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -47,12 +58,13 @@ a:hover {
 }
 
 
-footer {    
-    display:flex;
-    justify-content:space-around;
-    flex-wrap:wrap;
-    color:white;
-    font-size:30px;
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 30px;
     background-color: #554536;
     border-style: hidden;
     border-width: 4px;
@@ -60,14 +72,14 @@ footer {
     margin-top: 25px;
     padding-bottom: 45px;
     width: 80%;
-    margin-left:150px;
+    margin-left: 150px;
 }
 
 
-footer h2{
-    color:white;
-    width:100%;
-    text-align:center;
+footer h2 {
+    color: white;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -81,8 +93,8 @@ table {
 }
 
 
-.community{
-    display:flex;
+.community {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
@@ -90,12 +102,13 @@ table {
 
 
 
-.socials{
+.socials {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 
 
 table {
@@ -104,60 +117,77 @@ table {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-    
+
 }
 
-.history{
+
+
+
+.history {
     position: relative;
     text-align: center;
+    padding: 1em;
 }
 
 
-.esta{
+
+.esta {
     position: absolute;
-    top: 35%;
+    top: 27%;
     bottom: 50%;
     right: 47%;
     transform: translate(100%);
 }
 
-p.esta{
+
+
+p.esta {
     width: 30%;
     font-size: 35px;
 }
 
-h3.esta{
-    top: 28%;
+
+
+h3.esta {
+    top: 20%;
     right: 41%;
-    font-size:45px;
-}
-
-
-.our{
-    right: -90%;
-    position: relative;
-    text-align: center;
+    font-size: 45px;
 }
 
 
 
-.story{
+.story {    
     position: absolute;
-    top: 165%;
-    bottom: 1%;
-    right: 85%;
+    top: 27%;
+    bottom: 50%;
+    right: 47%;
     transform: translate(100%);
-    font-size: 35px;
-    width: 30%;
+    color: aliceblue;
 }
 
-h3.story{
-    top: 155%;
-    right: 78%;
-    font-size:45px;
-}
 
-.establishment{
+
+p.story {
     width: 30%;
     font-size: 35px;
+
+}
+
+
+h3.story {
+    top: 20%;
+    right: 38%;
+    font-size: 45px;
+}
+
+
+
+/*How to change desktop to mobile*/
+
+@media only screen and (max-width:640px) {
+    body {
+        grid-template-columns: 1fr;
+        padding: 3em;
+    }
+
 }
