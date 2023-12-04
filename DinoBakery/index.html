@@ -29,7 +29,7 @@
 
             <section class="cart">
                 <a  type="button" >
-                    <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/ShoppingCart.html"> <i class="fa-solid fa-cart-shopping"></i> </a>
+                    <a id="cartItemCount" href="http://127.0.0.1:5500/DinoBakery/ShoppingCart.html"> <i class="fa-solid fa-cart-shopping"></i> </a>
                 </a>
             </section>
 
@@ -45,9 +45,9 @@
             <section class="nav">
 
                 <a href="/"></a>
-                <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/home.html">Home</a>
+                <a target="_blank" href="http://127.0.0.1:5501/DinoBakery/index.html#bottom">Home</a>
 
-                <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/map.html">Map</a>
+                <a target="_blank" href="http://127.0.0.1:5501/DinoBakery/map.html">Map</a>
 
                 <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/ordernow.html">Order Now</a>
 
@@ -222,61 +222,43 @@
         <section class="sig" id="signature">
             <h3>Signatures</h3>
             <section class="ond" id="oreo">
-                <figure>
+                <div>
                     <img src="https://houseofnasheats.com/wp-content/uploads/2023/03/Oreo-Dessert-Recipe-24.jpg"
                         width="250" height="350">
-                    <figcaption class="fig">Oreo Ice Cream Cake</figcaption>
-                    <figurecaption class="cap"> $5.80</figurecaption>
-                    <figurecaption>
-                        <a type="button" class="but" href="#bottom">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </a>
-                    </figurecaption>
-                </figure>
+                    <h4 class="prodName">Oreo Ice Cream Cake</h4>
+                    <span class="prodPrice"> $5.80</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
             </section>
 
             <section class="ond" id="cotta">
-                <figure>
-                    <img src="https://www.abakingjourney.com/wp-content/uploads/2022/03/Raspberry-Panna-Cotta-Feature.jpg"
-                        width="250" height="350">
-                    <figcaption class="fig">Raspberry Panna Cotta</figcaption>
-                    <figurecation class="cap">$3.15</figurecation>
-                    <figurecaption>
-                        <a type="button" class="but" href="#bottom">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </a>
-                    </figurecaption>
-                </figure>
+                <div>
+                    <div>
+                        <img src="https://www.abakingjourney.com/wp-content/uploads/2022/03/Raspberry-Panna-Cotta-Feature.jpg"
+                            width="250" height="350">
+                        <h4 class="prodName">Raspberry Panna Cotta</h4>
+                        <span class="prodPrice"> $3.15</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
             </section>
 
 
             <section class="ond" id="chip">
-                <figure>
+                <div>
                     <img src="https://assets.epicurious.com/photos/62cc51a66f0eae1af0de3a92/1:1/w_2240,c_limit/ChocolateChipCookies_RECIPE_070722_36748.jpg"
                         width="250" height="350">
-                    <figcaption class="fig">Chocolate chip cookie</figcaption>
-                    <figurecation class="cap">$4.50</figurecation>
-                    <figurecaption>
-                        <a type="button" class="but" href="#bottom">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </a>
-                    </figurecaption>
-                </figure>
+                    <h4 class="prodName">Chocolate Chip Cookie</h4>
+                    <span class="prodPrice"> $4.30</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
             </section>
 
 
             <section class="ond" id="tira">
-                <figure>
+                <div>
                     <img src="https://bakingamoment.com/wp-content/uploads/2023/10/IMG_3431-tiramisu-cake-720x720.jpg"
                         width="250" height="350">
-                    <figcaption class="fig">Tiramisu Cake</figcaption>
-                    <figurecaption class="cap">$45.80</figurecaption>
-                    <figurecaption>
-                        <a type="button" class="but" href="#bottom">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </a>
-                    </figurecaption>
-                </figure>
+                    <h4 class="prodName">Tiramisu Cake</h4>
+                    <span class="prodPrice"> $45.80</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
             </section>
         </section>
 
@@ -367,52 +349,39 @@
             <h3>Cookies</h3>
 
             <section class="ond" id="macaron">
-                <img src="https://images.immediate.co.uk/production/volatile/sites/2/2022/05/Macarons-fb56db8.jpg?quality=90&webp=true&resize=375,341"
-                    width="250" height="350">
-                <figcaption class="fig">Macaron</figcaption>
-                <figurecation class="cap">$19.99</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
+                <div>
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/2/2022/05/Macarons-fb56db8.jpg?quality=90&webp=true&resize=375,341"
+                        width="250" height="350">
+                    <h4 class="prodName">Macaron</h4>
+                    <span class="prodPrice"> $19.99</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
             </section>
 
             <section class="ond" id="crinkle">
-                <img src="https://www.momontimeout.com/wp-content/uploads/2021/12/chocolate-crinkle-cookies.jpeg"
-                    width="250" height="350">
-                <figcaption class="fig">Crinkle Cookie</figcaption>
-                <figurecation class="cap">$12.45</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
+                <div>
+                    <img src="https://www.momontimeout.com/wp-content/uploads/2021/12/chocolate-crinkle-cookies.jpeg"
+                        width="250" height="350">
+                    <h4 class="prodName">Crinkle Cookie</h4>
+                    <span class="prodPrice"> $12.45</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
             </section>
 
             <section class="ond" id="chocolate">
-                <img src="https://www.modernhoney.com/wp-content/uploads/2023/08/Nestle-Toll-House-Chocolate-Chip-Cookies-Recipe-crop.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Chocolate Chip cookie</figcaption>
-                <figurecation class="cap">$8.35</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
+                <div>
+                    <img src="https://www.modernhoney.com/wp-content/uploads/2023/08/Nestle-Toll-House-Chocolate-Chip-Cookies-Recipe-crop.jpg"
+                        width="250" height="350">
+                    <h4 class="prodName">Chocolate Chip Cookie</h4>
+                    <span class="prodPrice"> $12.45</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
             </section>
 
             <section class="ond" id="alfajor">
-                <img src="https://www.elmundoeats.com/wp-content/uploads/2021/07/Argentine-alfajores-on-a-rack.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Alfajor</figcaption>
-                <figurecation class="cap">$15.95</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                <div>
+                    <img src="https://www.elmundoeats.com/wp-content/uploads/2021/07/Argentine-alfajores-on-a-rack.jpg"
+                        width="250" height="350">
+                    <h4 class="prodName">Alfajor</h4>
+                    <span class="prodPrice"> $19.95</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
         </section>
 
         <section class="cake" id="cake">
@@ -866,15 +835,6 @@
             </table>
 
         </footer>
-
-
-        <aside class="siba" role="navigation">
-            <div class="card">
-                <nav>
-                    <p><button><a id='bottom' target="_blank" href="http://127.0.0.1:5500/DinoBakery/ShoppingCart.html">Add to cart</a></button></p>
-                </nav>
-            </div>
-        </aside> 
 
 </body>
 
