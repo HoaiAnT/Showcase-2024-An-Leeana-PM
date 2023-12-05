@@ -119,9 +119,9 @@ table {
     margin-top: 2em;
 }
 
-img{
+.img{
     position: relative;
-    left:10em;
+    left:8em;
     top:3em;
 }
 
@@ -135,4 +135,11 @@ img{
     position: relative;
     left: 40em;
     bottom: 15em;
+    z-index: -1;
+}
+
+.display{
+    position: relative;
+    left:8em;
+    top:3em;
 }
