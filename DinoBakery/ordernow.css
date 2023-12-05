@@ -135,6 +135,15 @@ table {
     position: relative;
     left: 40em;
     bottom: 15em;
+}
+
+
+.leaf{
+    position: relative;
+    left: 38em;
+    bottom:33em;
+    width: 25em;
+    height: 19em;
     z-index: -1;
 }
 
