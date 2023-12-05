@@ -1,35 +1,43 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    </html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jurassic Olive Bake</title>
     <link rel="stylesheet" href="home.css">
     <script src="https://kit.fontawesome.com/e5a7e77dff.js" crossorigin="anonymous"></script>
+    <script src="faux-cart.js"></script>
 </head>
 
 <body>
+    <section id="cart">
+
+    </section>
+
     <div class="flex-container">
 
-        <header> 
+        <header>
             <section class="bar">
                 <a type="button">
                     <i class="fa-solid fa-house"></i>
                 </a>
             </section>
-            
-            Jurassic Olive Bake 
+
+            Jurassic Olive Bake
 
             <section class="loca">
                 <a type="button">
-                    <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/ordernow.html"><i class="fa-solid fa-location-dot"></i></a>
+                    <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/ordernow.html"><i
+                            class="fa-solid fa-location-dot"></i></a>
                 </a>
             </section>
 
             <section class="cart">
-                <a  type="button" >
-                    <a id="cartItemCount" href="http://127.0.0.1:5500/DinoBakery/ShoppingCart.html"> <i class="fa-solid fa-cart-shopping"></i> </a>
+                <a type="button">
+                    <a href="http://127.0.0.1:5501/DinoBakery/ShoppingCart.html"> <i class="fa-solid fa-cart-shopping"></i><span id="cartItemCount" ></span> </a>
                 </a>
             </section>
 
@@ -37,10 +45,10 @@
                 <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
                     <input type="text" placeholder="Search.." name="search2">
                     <button type="submit"><i class="fa fa-search"></i></button>
-                  </form>
+                </form>
             </section>
         </header>
-        
+
         <nav>
             <section class="nav">
 
@@ -49,7 +57,7 @@
 
                 <a target="_blank" href="http://127.0.0.1:5501/DinoBakery/map.html">Map</a>
 
-                <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/ordernow.html">Order Now</a>
+                <a target="_blank" href="http://127.0.0.1:5501/DinoBakery/ordernow.html">Order Now</a>
 
                 <a target="_blank" href="http://127.0.0.1:5500/DinoBakery/Aboutus.html">About Us</a>
 
@@ -62,14 +70,14 @@
         <div class="container">
             <img src="Screenshot 2023-12-01 142235.png" width="85%" height="800">
         </div>
+
         <aside>
-            <section class="sidebar">
+            <section class="si1">
                 <h4 class="side">Menu</h4>
                 <ul>
                     <section class="name">
                         <a href="#signature" class="sidebar">Signature</a>
                     </section>
-                    <a href="#signature" class="sidebar">Signature</a>
                     <li>
                         <a href="#oreo" class="sidebar">Oreo Ice Cream Cake</a>
                     </li>
@@ -213,54 +221,60 @@
                         <a href="#wagashi" class="sidebar">Wagashi</a>
                     </li>
                     <li>
-                        <a href="#meringue" class="sidebar"></a>
+                        <a href="#meringue" class="sidebar">Meringue</a>
                     </li>
                 </ul>
             </section>
         </aside>
-
-        <section class="sig" id="signature">
-            <h3>Signatures</h3>
-            <section class="ond" id="oreo">
-                <div>
-                    <img src="https://houseofnasheats.com/wp-content/uploads/2023/03/Oreo-Dessert-Recipe-24.jpg"
-                        width="250" height="350">
-                    <h4 class="prodName">Oreo Ice Cream Cake</h4>
-                    <span class="prodPrice"> $5.80</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </section>
-
-            <section class="ond" id="cotta">
-                <div>
+        <div id="products">
+            <section class="sig" id="signature">
+                <h3>Signatures</h3>
+                <section class="ond" id="oreo">
                     <div>
-                        <img src="https://www.abakingjourney.com/wp-content/uploads/2022/03/Raspberry-Panna-Cotta-Feature.jpg"
-                            width="250" height="350">
-                        <h4 class="prodName">Raspberry Panna Cotta</h4>
-                        <span class="prodPrice"> $3.15</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <img src="https://houseofnasheats.com/wp-content/uploads/2023/03/Oreo-Dessert-Recipe-24.jpg"
+                            width="250" height="350" class="prodImage">
+                        <h4 class="prodName">Oreo Ice Cream Cake</h4>
+                        <span class="prodPrice">5.80</span>
+                        <a href="#cartItemCount" class="addToCart prodBtn"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
-                </div>
+                </section>
+
+                <section class="ond" id="cotta">
+                    <div>
+                        <div>
+                            <img src="https://www.abakingjourney.com/wp-content/uploads/2022/03/Raspberry-Panna-Cotta-Feature.jpg"
+                                width="250" height="350" class="prodImage">
+                            <h4 class="prodName">Raspberry Panna Cotta</h4>
+                            <span class="prodPrice">3.15</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="ond" id="chip">
+                    <div>
+                        <img src="https://assets.epicurious.com/photos/62cc51a66f0eae1af0de3a92/1:1/w_2240,c_limit/ChocolateChipCookies_RECIPE_070722_36748.jpg"
+                            width="250" height="350" class="prodImage">
+                        <h4 class="prodName">Chocolate Chip Cookie</h4>
+                        <span class="prodPrice">4.30</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </section>
+
+
+                <section class="ond" id="tira">
+                    <div>
+                        <img src="https://bakingamoment.com/wp-content/uploads/2023/10/IMG_3431-tiramisu-cake-720x720.jpg"
+                            width="250" height="350" class="prodImage">
+                        <h4 class="prodName">Tiramisu Cake</h4>
+                        <span class="prodPrice">45.80</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </section>
             </section>
-
-
-            <section class="ond" id="chip">
-                <div>
-                    <img src="https://assets.epicurious.com/photos/62cc51a66f0eae1af0de3a92/1:1/w_2240,c_limit/ChocolateChipCookies_RECIPE_070722_36748.jpg"
-                        width="250" height="350">
-                    <h4 class="prodName">Chocolate Chip Cookie</h4>
-                    <span class="prodPrice"> $4.30</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </section>
-
-
-            <section class="ond" id="tira">
-                <div>
-                    <img src="https://bakingamoment.com/wp-content/uploads/2023/10/IMG_3431-tiramisu-cake-720x720.jpg"
-                        width="250" height="350">
-                    <h4 class="prodName">Tiramisu Cake</h4>
-                    <span class="prodPrice"> $45.80</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </section>
-        </section>
+        </div>
 
         <section class="oreo">
             <figure>
@@ -332,7 +346,8 @@
                     width="100" height="100">
             </section>
             <section class="beveemo">
-                <img src="https://th.bing.com/th/id/OIP.sFuT1WB6yQkCO6jgdiRUVgAAAA?rs=1&pid=ImgDetMain" width="100" height="100">
+                <img src="https://th.bing.com/th/id/OIP.sFuT1WB6yQkCO6jgdiRUVgAAAA?rs=1&pid=ImgDetMain" width="100"
+                    height="100">
             </section>
             <section class="puddingemo">
                 <img src="data:image/png;base64,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"
@@ -344,450 +359,388 @@
             </section>
         </section>
 
+        <div id="products">
+            <section class="cookie" id="cookie">
+                <h3>Cookies</h3>
 
-        <section class="cookie" id="cookie">
-            <h3>Cookies</h3>
+                <section class="ond" id="macaron">
+                    <div>
+                        <img src="https://images.immediate.co.uk/production/volatile/sites/2/2022/05/Macarons-fb56db8.jpg?quality=90&webp=true&resize=375,341"
+                            width="250" height="350">
+                        <h4 class="prodName">Macaron</h4>
+                        <span class="prodPrice"> $19.99</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </section>
 
-            <section class="ond" id="macaron">
-                <div>
-                    <img src="https://images.immediate.co.uk/production/volatile/sites/2/2022/05/Macarons-fb56db8.jpg?quality=90&webp=true&resize=375,341"
-                        width="250" height="350">
-                    <h4 class="prodName">Macaron</h4>
-                    <span class="prodPrice"> $19.99</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </section>
+                <section class="ond" id="crinkle">
+                    <div>
+                        <img src="https://www.momontimeout.com/wp-content/uploads/2021/12/chocolate-crinkle-cookies.jpeg"
+                            width="250" height="350">
+                        <h4 class="prodName">Crinkle Cookie</h4>
+                        <span class="prodPrice"> $12.45</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </section>
 
-            <section class="ond" id="crinkle">
-                <div>
-                    <img src="https://www.momontimeout.com/wp-content/uploads/2021/12/chocolate-crinkle-cookies.jpeg"
-                        width="250" height="350">
-                    <h4 class="prodName">Crinkle Cookie</h4>
-                    <span class="prodPrice"> $12.45</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </section>
+                <section class="ond" id="chocolate">
+                    <div>
+                        <img src="https://www.modernhoney.com/wp-content/uploads/2023/08/Nestle-Toll-House-Chocolate-Chip-Cookies-Recipe-crop.jpg"
+                            width="250" height="350">
+                        <h4 class="prodName">Chocolate Chip Cookie</h4>
+                        <span class="prodPrice"> $12.45</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </section>
 
-            <section class="ond" id="chocolate">
-                <div>
-                    <img src="https://www.modernhoney.com/wp-content/uploads/2023/08/Nestle-Toll-House-Chocolate-Chip-Cookies-Recipe-crop.jpg"
-                        width="250" height="350">
-                    <h4 class="prodName">Chocolate Chip Cookie</h4>
-                    <span class="prodPrice"> $12.45</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </section>
+                <section class="ond" id="alfajor">
+                    <div>
+                        <img src="https://www.elmundoeats.com/wp-content/uploads/2021/07/Argentine-alfajores-on-a-rack.jpg"
+                            width="250" height="350">
+                        <h4 class="prodName">Alfajor</h4>
+                        <span class="prodPrice"> $19.95</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </section>
 
-            <section class="ond" id="alfajor">
-                <div>
-                    <img src="https://www.elmundoeats.com/wp-content/uploads/2021/07/Argentine-alfajores-on-a-rack.jpg"
-                        width="250" height="350">
-                    <h4 class="prodName">Alfajor</h4>
-                    <span class="prodPrice"> $19.95</span><a href="#cartItemCount" class="addToCart prodBtn"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-        </section>
+                <section class="cake" id="cake">
+                    <h3>Cakes</h3>
 
-        <section class="cake" id="cake">
-            <h3>Cakes</h3>
+                    <section class="ond" id="tres">
+                        <div>
+                            <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2017/04/Tres-Leches-Cake-1-1-768x1152.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Tres Leches Cake</h4>
+                            <span class="prodPrice"> $19.95</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="tres">
-                <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2017/04/Tres-Leches-Cake-1-1-768x1152.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Tres Leches Cake</figcaption>
-                <figurecation class="cap">$19.99</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="dona">
+                        <div>
+                            <img src="https://mission-food.com/wp-content/uploads/2021/07/Donauwelle-Danube-Wave-Cake-24.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Donauwelle</h4>
+                            <span class="prodPrice"> $25.95</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="dona">
-                <img src="https://mission-food.com/wp-content/uploads/2021/07/Donauwelle-Danube-Wave-Cake-24.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Donauwelle</figcaption>
-                <figurecation class="cap">$25.45</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="cheese">
+                        <div>
+                            <img src="https://sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-7.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Cheesecake</h4>
+                            <span class="prodPrice"> $20.25</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="cheese">
-                <img src="https://sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-7.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Cheesecake</figcaption>
-                <figurecation class="cap">$20.20</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="ake">
+                        <div>
+                            <img src="https://www.shugarysweets.com/wp-content/uploads/2013/11/oreo-ice-cream-cake-sliced.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Ice Cream Cake</h4>
+                            <span class="prodPrice"> $30.30</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="ake">
-                <img src="https://www.shugarysweets.com/wp-content/uploads/2013/11/oreo-ice-cream-cake-sliced.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Ice Cream Cake</figcaption>
-                <figurecation class="cap">$30.20</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="red">
+                        <div>
+                            <img src="https://handletheheat.com/wp-content/uploads/2013/04/red-velvet-cake-recipe-SQUARE-768x768.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Red Velvet cake</h4>
+                            <span class="prodPrice"> $32.30</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="red">
-                <img src="https://handletheheat.com/wp-content/uploads/2013/04/red-velvet-cake-recipe-SQUARE-768x768.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Red Velvet Cake</figcaption>
-                <figurecation class="cap">$32.20</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="black">
+                        <div>
+                            <img src="https://thescranline.com/wp-content/uploads/2023/06/BLACK-FOREST-CAKE-WEB-07.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Black Forest cake</h4>
+                            <span class="prodPrice"> $32.95</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="black">
-                <img src="https://thescranline.com/wp-content/uploads/2023/06/BLACK-FOREST-CAKE-WEB-07.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Black Forest Cake</figcaption>
-                <figurecation class="cap">$35.25</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="opera">
+                        <div>
+                            <img src="https://projectveganbaking.com/wp-content/uploads/2021/02/IMG_0032-2.jpeg"
+                                width="250" height="350">
+                            <h4 class="prodName">Opera Cake</h4>
+                            <span class="prodPrice"> $25.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="opera">
-                <img src="https://projectveganbaking.com/wp-content/uploads/2021/02/IMG_0032-2.jpeg" width="250"
-                    height="350">
-                <figcaption class="fig">Opera Cake</figcaption>
-                <figurecation class="cap">$25.40</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="crepe">
+                        <div>
+                            <img src="https://www.hummingbirdhigh.com/wp-content/uploads/2021/11/01_vanilla-mille-crepe-cake_IMG_4332-672x800.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Crepe Cake</h4>
+                            <span class="prodPrice"> $15.25</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="crepe">
-                <img src="https://www.hummingbirdhigh.com/wp-content/uploads/2021/11/01_vanilla-mille-crepe-cake_IMG_4332-672x800.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Crepe Cake</figcaption>
-                <figurecation class="cap">$25.14</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                </section>
 
-        </section>
+                <section class="beverages" id="beverages">
+                    <h3>Beverages</h3>
 
-        <section class="beverages" id="beverages">
-            <h3>Beverages</h3>
+                    <section class="ond" id="strawberry">
+                        <div>
+                            <img src="https://www.oliviascuisine.com/wp-content/uploads/2021/06/strawberry-milkshake-recipe-1024x1536.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Strawberry Smoothie</h4>
+                            <span class="prodPrice"> $5.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="strawberry">
-                <img src="https://www.oliviascuisine.com/wp-content/uploads/2021/06/strawberry-milkshake-recipe-1024x1536.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Strawberry Smoothie</figcaption>
-                <figurecation class="cap">$5.30</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="avocado">
+                        <div>
+                            <img src="https://joyfoodsunshine.com/wp-content/uploads/2022/05/banana-avocado-smoothie-recipe-5.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Avocado Smoothie</h4>
+                            <span class="prodPrice"> $4.25</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="avocado">
-                <img src="https://joyfoodsunshine.com/wp-content/uploads/2022/05/banana-avocado-smoothie-recipe-5.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Avocado Smoothie</figcaption>
-                <figurecation class="cap">$4.30</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="mango">
+                        <div>
+                            <img src="https://cdn.loveandlemons.com/wp-content/uploads/2023/05/mango-smoothie.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Mango Smoothie</h4>
+                            <span class="prodPrice"> $4.00</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="mango">
-                <img src="https://cdn.loveandlemons.com/wp-content/uploads/2023/05/mango-smoothie.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Mango Smoothie</figcaption>
-                <figurecation class="cap">$4.00</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="mixed">
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKUSnuIubqB3KXaoW7yBT_ei1meBVUKV127wHAWsHSjRJfetPJzD13Jzgd7-yi83E4AzQ&usqp=CAU"
+                                width="250" height="350">
+                            <h4 class="prodName">Mixed berries and banana</h4>
+                            <span class="prodPrice"> $5.50</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="mixed">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKUSnuIubqB3KXaoW7yBT_ei1meBVUKV127wHAWsHSjRJfetPJzD13Jzgd7-yi83E4AzQ&usqp=CAU"
-                    width="250" height="350">
-                <figcaption class="fig">Mixed berries and banana</figcaption>
-                <figurecation class="cap">$5.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="viet">
+                        <div>
+                            <img src="https://whiteonricecouple.com/recipe/images/Vietnamese-Iced-Coffee-1-1.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Vietnamese Coffee</h4>
+                            <span class="prodPrice"> $5.50</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="viet">
-                <img src="https://whiteonricecouple.com/recipe/images/Vietnamese-Iced-Coffee-1-1.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Vietnamese Coffee</figcaption>
-                <figurecation class="cap">$5.15</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" class="earl">
+                        <div>
+                            <img src="https://cdn11.bigcommerce.com/s-74757430ww/images/stencil/1280x1280/products/414/2513/Earl-Grey-Tea-Fragrance-Oil__70921.1665523240.jpg?c=1"
+                                width="250" height="350">
+                            <h4 class="prodName">Earl Grey Tea</h4>
+                            <span class="prodPrice"> $4.30</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" class="earl">
-                <img src="https://cdn11.bigcommerce.com/s-74757430ww/images/stencil/1280x1280/products/414/2513/Earl-Grey-Tea-Fragrance-Oil__70921.1665523240.jpg?c=1"
-                    width="250" height="350">
-                <figcaption class="fig">Earl Grey Tea</figcaption>
-                <figurecation class="cap">$4.30</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="matcha">
+                        <div>
+                            <img src="https://gimmedelicious.com/wp-content/uploads/2018/03/Iced-Matcha-Latte2.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Matcha</h4>
+                            <span class="prodPrice"> $3.25</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="matcha">
-                <img src="https://gimmedelicious.com/wp-content/uploads/2018/03/Iced-Matcha-Latte2.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Matcha</figcaption>
-                <figurecation class="cap">$5.00</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="butter">
+                        <div>
+                            <img src="https://salimaskitchen.com/wp-content/uploads/2023/08/Butterfly-Pea-Flower-Cocktail-Salimas-Kitchen-81.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Butterfly Tea</h4>
+                            <span class="prodPrice"> $5.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
+                </section>
 
-            <section class="ond" id="butter">
-                <img src="https://salimaskitchen.com/wp-content/uploads/2023/08/Butterfly-Pea-Flower-Cocktail-Salimas-Kitchen-81.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Butterfly Tea</figcaption>
-                <figurecation class="cap">5.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
-        </section>
+                <section class="pudding" id="pudding">
+                    <h3>Pudding/Mousse</h3>
 
-        <section class="pudding" id="pudding">
-            <h3>Pudding/Mousse</h3>
+                    <section class="ond" id="creme">
+                        <div>
+                            <img src="https://pudgefactor.com/wp-content/uploads/2017/05/Creme-Caramel3-768x1024.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Creme Caramel</h4>
+                            <span class="prodPrice"> $3.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="creme">
-                <img src="https://pudgefactor.com/wp-content/uploads/2017/05/Creme-Caramel3-768x1024.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Creme Caramel</figcaption>
-                <figurecation class="cap">$5.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="passion">
+                        <div>
+                            <img src="https://th.bing.com/th?id=OSK.007979fa0005b92c796203a992081ea7&w=202&h=302&rs=2&qlt=80&o=6&cdv=1&dpr=1.3&pid=16.1"
+                                width="250" height="350">
+                            <h4 class="prodName">Passion Fruit Mousse</h4>
+                            <span class="prodPrice"> $5.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="passion">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ1tyyVeP6lpx7Q7aiT6snhUcy_ugZGgMYFw&usqp=CAU"
-                    width="250" height="350">
-                <figcaption class="fig">Passion Fruit Mousse</figcaption>
-                <figurecation class="cap">$3.15</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="banana">
+                        <div>
+                            <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/07/Banana-Pudding-WS-Thumbnail.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Banana Pudding</h4>
+                            <span class="prodPrice"> $8.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="banana">
-                <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/07/Banana-Pudding-WS-Thumbnail.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Banana Pudding</figcaption>
-                <figurecation class="cap">$5.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="panna">
+                        <div>
+                            <img src="https://www.cookingclassy.com/wp-content/uploads/2021/05/panna-cotta-01-768x1152.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Panna Cotta</h4>
+                            <span class="prodPrice"> $3.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="panna">
-                <img src="https://www.cookingclassy.com/wp-content/uploads/2021/05/panna-cotta-01-768x1152.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Panna Cotta</figcaption>
-                <figurecation class="cap">$3.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="chia">
+                        <div>
+                            <img src="https://www.eatingbirdfood.com/wp-content/uploads/2023/04/protein-chia-pudding-new-hero-cropped-1131x1536.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Chia Pudding </h4>
+                            <span class="prodPrice"> $5.30</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="chia">
-                <img src="https://www.eatingbirdfood.com/wp-content/uploads/2023/04/protein-chia-pudding-new-hero-cropped-1131x1536.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Chia Pudding</figcaption>
-                <figurecation class="cap">$6.75</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="mint">
+                        <div>
+                            <img src="https://www.missinthekitchen.com/wp-content/uploads/2019/02/Mint-Chocolate-Chip-Cheesecake-Recipe-Picture.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Mint Chocolate chip pudding</h4>
+                            <span class="prodPrice"> $7.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="mint">
-                <img src="https://www.missinthekitchen.com/wp-content/uploads/2019/02/Mint-Chocolate-Chip-Cheesecake-Recipe-Picture.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Mint Chocolate</figcaption>
-                <figcaption class="fig">Chip pudding</figcaption>
-                <figurecation class="cap">$13.80</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="carleigh">
+                        <div>
+                            <img src="https://famouspudn.com/wp-content/uploads/2022/10/famous_pudn_pudding_careleigh_faye_strawberry_cheesecake_commercial_2-modified.png"
+                                width="250" height="350">
+                            <h4 class="prodName">Carleigh Faye Strawberry cheesecake</h4>
+                            <span class="prodPrice"> $8.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="carleigh">
-                <img src="https://famouspudn.com/wp-content/uploads/2022/10/famous_pudn_pudding_careleigh_faye_strawberry_cheesecake_commercial_2-modified.png"
-                    width="250" height="350">
-                <figcaption class="fig">Carleigh Faye</figcaption>
-                <figcaption class="fig">Strawberry cheessecake</figcaption>
-                <figurecation class="cap">$12.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="lemon">
+                        <div>
+                            <img src="https://www.jocooks.com/wp-content/uploads/2012/05/lemon-pudding-1-12-768x960.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Lemon pudding</h4>
+                            <span class="prodPrice"> $3.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
+                </section>
 
-            <section class="ond" id="lemon">
-                <img src="https://www.jocooks.com/wp-content/uploads/2012/05/lemon-pudding-1-12-768x960.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Lemon Pudding</figcaption>
-                <figurecation class="cap">$3.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
-        </section>
+                <section class="pastry" id="pastry">
+                    <h3>Pastry/Treats</h3>
 
-        <section class="pastry" id="pastry">
-            <h3>Pastry/Treats</h3>
+                    <section class="ond" id="rolls">
+                        <div>
+                            <img src="https://www.allrecipes.com/thmb/9tGcLa1K-Up1VESQjBJk1kc0nmU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9175447-d4cafe297e4746bfbe97e485ee057a0e.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Cinnamon Rolls</h4>
+                            <span class="prodPrice"> $3.80</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="rolls">
-                <img src="https://www.allrecipes.com/thmb/9tGcLa1K-Up1VESQjBJk1kc0nmU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9175447-d4cafe297e4746bfbe97e485ee057a0e.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Cinnamon Rolls</figcaption>
-                <figurecation class="cap">$8.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="churro">
+                        <div>
+                            <img src="https://www.recipetineats.com/wp-content/uploads/2016/08/Churros_9-SQ.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Churro</h4>
+                            <span class="prodPrice"> $3.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="churro">
-                <img src="https://www.recipetineats.com/wp-content/uploads/2016/08/Churros_9-SQ.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Churro</figcaption>
-                <figurecation class="cap">$1.10</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="briga">
+                        <div>
+                            <img src="https://www.africanbites.com/wp-content/uploads/2020/08/IMG_9788.jpg" width="250"
+                                height="350">
+                            <h4 class="prodName">Brigadeiro</h4>
+                            <span class="prodPrice"> $2.30</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="briga">
-                <img src="https://www.africanbites.com/wp-content/uploads/2020/08/IMG_9788.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Brigadeiro</figcaption>
-                <figurecation class="cap">$2.30</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="nama">
+                        <div>
+                            <img src="https://takestwoeggs.com/wp-content/uploads/2021/07/nama-chocolate-takestwoeggs-final-1.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Nama Chocolate</h4>
+                            <span class="prodPrice"> $3.00</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="nama">
-                <img src="https://takestwoeggs.com/wp-content/uploads/2021/07/nama-chocolate-takestwoeggs-final-1.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Nama Chocolate</figcaption>
-                <figurecation class="cap">$3.00</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
-            
 
-            <section class="ond" id="jelly">
-                <img src="https://www.thecountrycook.net/wp-content/uploads/2022/01/thumbnail-Strawberry-Jelly-Filled-Biscuit-Donuts.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Jelly Filled Donuts</figcaption>
-                <figurecation class="cap">$1.50</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="jelly">
+                        <div>
+                            <img src="https://www.thecountrycook.net/wp-content/uploads/2022/01/thumbnail-Strawberry-Jelly-Filled-Biscuit-Donuts.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Jelly filled Donuts</h4>
+                            <span class="prodPrice"> $1.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="beignets">
-                <img src="https://www.spoonfulofflavor.com/wp-content/uploads/2022/05/pricess-and-the-frog-beignets-500x500.jpg"
-                    width="250" height="350">
-                <figcaption class="fig">Beignets</figcaption>
-                <figurecation class="cap">$3.25</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="beignets">
+                        <div>
+                            <img src="https://www.spoonfulofflavor.com/wp-content/uploads/2022/05/pricess-and-the-frog-beignets-500x500.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Beignets</h4>
+                            <span class="prodPrice"> $3.20</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="wagashi">
-                <img src="https://jlgstg.blob.core.windows.net/cache/1/0/6/1/7/2/106172d800cc31477de75eb8175da05a8a00bfee.jpeg"
-                    width="250" height="350">
-                <figcaption class="fig">Wagashi</figcaption>
-                <figurecation class="cap">$2.15</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
+                    <section class="ond" id="wagashi">
+                        <div>
+                            <img src="https://jlgstg.blob.core.windows.net/cache/1/0/6/1/7/2/106172d800cc31477de75eb8175da05a8a00bfee.jpeg"
+                                width="250" height="350">
+                            <h4 class="prodName">Wagashi</h4>
+                            <span class="prodPrice"> $2.15</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
 
-            <section class="ond" id="meringue">
-                <img src="https://valentinascorner.com/wp-content/uploads/2014/01/Meringue-cookies-7.jpg" width="250"
-                    height="350">
-                <figcaption class="fig">Meringue Cookies</figcaption>
-                <figurecation class="cap">$8.30</figurecation>
-                <figurecaption>
-                    <a type="button" class="but" href="#bottom">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                </figurecaption>
-            </section>
-        </section>
-
+                    <section class="ond" id="meringue">
+                        <div>
+                            <img src="https://valentinascorner.com/wp-content/uploads/2014/01/Meringue-cookies-7.jpg"
+                                width="250" height="350">
+                            <h4 class="prodName">Meringue cookies</h4>
+                            <span class="prodPrice"> $3.15</span><a href="#cartItemCount" class="addToCart prodBtn"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </section>
+                </section>
+        </div>
 
         <footer>
             <h2>Jurassic Olive Bake</h2>
