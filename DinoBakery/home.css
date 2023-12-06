@@ -266,6 +266,13 @@ p{
     padding:25px;
     margin-left:30px;
 }
+.prodName{
+    font-size:20px;
+    font-family: 'Playfair Display';
+}
+.prodPrice{
+    font-size:25px;
+}
 
 footer h2{
     color:white;
