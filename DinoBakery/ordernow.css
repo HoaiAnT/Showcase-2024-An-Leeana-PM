@@ -6,6 +6,18 @@ body {
 
 
 
+h1.loca{
+    margin-top: 3em;
+    border-style: solid;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 43%;
+    border-left: hidden;
+    border-right:hidden;
+}
+
+
+
 header {
     display: flex;
     justify-content: center;
@@ -99,6 +111,7 @@ table {
 
 }
 
+
 .location {
     display: block;
     background-color: #F4E3C2;
@@ -112,6 +125,7 @@ table {
     text-align: center;
 }
 
+
 .whereabouts {
     display: flex;
     flex-direction: row;
@@ -119,97 +133,88 @@ table {
     margin-top: 2em;
 }
 
-.img {
-    position: relative;
-    left: 8em;
-    top: 3em;
-}
 
 .north {
     background-color: #73926D;
-    width: fit-content;
-    padding: 2em;
-    padding-left: 3em;
-    padding-right: 3em;
-    border-radius: 12px;
-    position: relative;
-    left: 40em;
-    bottom: 15em;
+    padding:2em;
+    border-radius: 2em;
     text-align: center;
+    position: absolute;
+    left: 42em;
+    top: 33em;
 }
 
 
-.leaf {
-    position: relative;
-    left: 38em;
-    bottom: 33em;
-    width: 25em;
-    height: 19em;
+
+.img{
+    position: absolute;
+    left: 10em;
+    top: 32em;
+}
+
+
+
+.leaf{
+    position: absolute;
+    left: 41em;
+    top: 32em;
     z-index: -1;
+    object-fit:fill;
+    width: 21.5em;
+    height: 19em
 }
 
 
 
-.display {
-    position: relative;
-    left: 34.5em;
-    bottom: 44em;
-}
-
-
-.south {
+.south{
     background-color: #73926D;
-    width: fit-content;
-    padding: 2em;
-    padding-left: 3em;
-    padding-right: 3em;
-    border-radius: 12px;
-    position: relative;
-    left: 10.5em;
-    bottom: 26em;
+    padding:2em;
+    border-radius: 2em;
     text-align: center;
+    position: absolute;
+    left: 11.5em;
+    top: 56em;
+}
+
+
+.display{
+    position: absolute;
+    left: 33.5em;
+    top: 55em;
 }
 
 
 
-.leafy {
-    position: relative;
-    right: 20.5em;
-    bottom: 44em;
-    width: 25em;
-    height: 19em;
+.leafy{
+    position: absolute;
+    left: 10em;
+    top: 55em;
     z-index: -1;
+    object-fit:fill;
+    width: 21.5em;
+    height: 19em
 }
-
 
 
 .west{
     background-color: #73926D;
-    width: fit-content;
-    padding: 2em;
-    padding-left: 3em;
-    padding-right: 3em;
-    border-radius: 12px;
-    position: relative;
-    left: 40em;
-    bottom: 56em;
+    padding:2em;
+    border-radius: 2em;
     text-align: center;
+    width: fit-content;
+    position: relative;
+    top: 30em;
+    left: 39em;
 }
 
 
 .leafeon{
     position: relative;
-    left: 38em;
-    bottom: 74em;
-    width: 25em;
-    height: 19em;
+    left: 10em;
+    top: 1em;
     z-index: -1;
-
+    object-fit:fill;
+    width: 21.5em;
+    height: 19em
 }
 
-
-.bread{
-    position: relative;
-    left: 8em;
-    bottom: 38em;
-}
