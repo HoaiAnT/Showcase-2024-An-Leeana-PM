@@ -81,7 +81,8 @@ body{
 
 footer h2{
     color:white;
-    width:100%
+    width:100%;
+    text-align:center;
 }
 
 table {
@@ -194,4 +195,10 @@ form.example::after {
     margin-left:5px;
     margin-right:5px;
     justify-content:space-between;
+}
+.prodPrice::before {
+    content: '$';
+}
+.prodImage{
+    
 }

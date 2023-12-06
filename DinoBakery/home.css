@@ -413,3 +413,7 @@ form.example::after {
     margin-left:100px;
 }
 
+
+.prodPrice::before {
+    content: '$';
+}
