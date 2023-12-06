@@ -1,5 +1,5 @@
 body {
-    background-color:#C6B395;
+    background-color: #C6B395;
     color: rgb(0, 0, 0);
     font-size: 25px;
 }
@@ -7,7 +7,7 @@ body {
 
 
 header {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 90px;
@@ -99,7 +99,7 @@ table {
 
 }
 
-.location{
+.location {
     display: block;
     background-color: #F4E3C2;
     width: fit-content;
@@ -112,43 +112,104 @@ table {
     text-align: center;
 }
 
-.whereabouts{
+.whereabouts {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 2em;
 }
 
-.img{
+.img {
     position: relative;
-    left:8em;
-    top:3em;
+    left: 8em;
+    top: 3em;
 }
 
-.north{
+.north {
     background-color: #73926D;
     width: fit-content;
-    padding:2em;
+    padding: 2em;
     padding-left: 3em;
     padding-right: 3em;
     border-radius: 12px;
     position: relative;
     left: 40em;
     bottom: 15em;
+    text-align: center;
 }
 
 
-.leaf{
+.leaf {
     position: relative;
     left: 38em;
-    bottom:33em;
+    bottom: 33em;
     width: 25em;
     height: 19em;
     z-index: -1;
 }
 
-.display{
+
+
+.display {
     position: relative;
-    left:8em;
-    top:3em;
+    left: 34.5em;
+    bottom: 44em;
+}
+
+
+.south {
+    background-color: #73926D;
+    width: fit-content;
+    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 12px;
+    position: relative;
+    left: 10.5em;
+    bottom: 26em;
+    text-align: center;
+}
+
+
+
+.leafy {
+    position: relative;
+    right: 20.5em;
+    bottom: 44em;
+    width: 25em;
+    height: 19em;
+    z-index: -1;
+}
+
+
+
+.west{
+    background-color: #73926D;
+    width: fit-content;
+    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 12px;
+    position: relative;
+    left: 40em;
+    bottom: 56em;
+    text-align: center;
+}
+
+
+.leafeon{
+    position: relative;
+    left: 38em;
+    bottom: 74em;
+    width: 25em;
+    height: 19em;
+    z-index: -1;
+
+}
+
+
+.bread{
+    position: relative;
+    left: 8em;
+    bottom: 38em;
 }
