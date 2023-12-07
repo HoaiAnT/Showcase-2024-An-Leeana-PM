@@ -1,56 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     background-color: #C6B395;
     color: rgb(0, 0, 0);
     font-size: 25px;
 
 }
-
-
-
 header {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     padding-top: 90px;
     background-color: #554536;
-    color: rgb(247, 244, 158);
+    color: rgb(174, 171, 114);
+    font-size:80px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family: 'Lobster', sans-serif;
 }
 
-
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fa-solid{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:10px;
+    margin-left:120px;
+    font-size:25px;
+    color:black;
+    border-style:solid;
+    border-radius:10px;
+    background-color:white;
 }
 
+.cart .fa-solid{
+    font-size: 50px;
+    margin-left:5px;
+    color:black;
+    border-style:none;
+    background-color:#554536;
+}
 
-h1.about{
-    margin-top: 3em;
+.bar .fa-solid{
+    margin-right:100px;
+    border-style:none;
+    background-color: #554536;
+    font-size:50px;
+}
+.loca .fa-solid{
+    border-style:none;
+    background-color:#554536;
+    font-size:50px;
+    margin-left:150px;
+}
+.search {
+    margin-right:50px;
+    margin-left:20px;
+}
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+  
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
     border-style: solid;
-    height: fit-content;
-    width: fit-content;
-    margin-left: 43%;
-    border-left: hidden;
-    border-right:hidden;
 }
-
-
-
-.nav {
+.nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    padding: 4px;
-    background-color: #554536;
+    align-items:center;
+    padding-right: 150px;
+    font-size:30px;
+    margin-bottom:100px;
+    padding-bottom:25px;
+    padding-top: 50px;
 }
-
-
 
 .nav a {
-    color: rgb(247, 244, 158);
+    color: rgb(174, 171, 114);
 }
+h1{
+    font-family: 'Lobster', sans-serif;
+    text-decoration:overline underline;
+    text-align:center;
+}
+p{
+    font-family: 'Pacifico', cursive;
 
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+}
 
 
 a:hover {
@@ -58,30 +121,33 @@ a:hover {
 }
 
 
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: white;
-    font-size: 30px;
+.nav{
     background-color: #554536;
-    border-style: hidden;
-    border-width: 4px;
-    border-radius: 8px;
-    margin-top: 25px;
-    padding-bottom: 45px;
-    width: 80%;
-    margin-left: 150px;
 }
 
 
-footer h2 {
-    color: white;
-    width: 100%;
+body{
+    background-color:#C6B395;
+}
+
+footer h2{
+    color:white;
+    width:100%;
     text-align: center;
 }
 
+h2{
+    font-family: 'Playfair Display', serif;
+    color:black;
+    text-decoration: underline;
+    font-size:45px;
+    text-align:center;
+}
+
+footer h2{
+    color:white;
+    width:100%;
+}
 
 table {
     display: table;
@@ -91,37 +157,27 @@ table {
     border-spacing: 2px;
     border-color: gray;
 }
-
-
-.community {
-    display: flex;
+.community{
+    display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
 }
-
-
-
-.socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+footer {    
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    color:white;
+    font-size:30px;
+    background-color: #554536;
+    border-style: hidden;
+    border-width: 4px;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-bottom: 45px;
+    width: 85%;
+    margin-left:150px;
 }
-
-
-
-table {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: center;
-
-}
-
-
-
 
 .history {
     position: relative;
@@ -143,7 +199,7 @@ table {
 
 p.esta {
     width: 30%;
-    font-size: 35px;
+    font-size: 33px;
 }
 
 
