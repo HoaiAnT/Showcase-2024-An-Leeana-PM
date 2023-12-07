@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 header {
     display:flex;
@@ -162,8 +162,8 @@ h2{
 
 h1{
     font-size:50px;
-    text-decoration: underline;
-    font-family: 'Playfair Display', serif;
+    text-decoration: underline overline;
+    font-family: 'Pacifico', cursive;
     text-align:center;
 }
 
