@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+
 header {
     display:flex;
     justify-content: center;
@@ -15,7 +16,6 @@ header {
     padding-bottom:15px;
     font-family: 'Lobster', sans-serif;
 }
-
 .fa-solid{
     padding-left:10px;
     padding-right:10px;
@@ -89,11 +89,15 @@ form.example button {
     font-size:30px;
     margin-bottom:100px;
     padding-bottom:25px;
-    padding-top: 50px;;
+    padding-top: 60px;;
 }
 
 .nav a {
     color: rgb(174, 171, 114);
+}
+
+header{
+    padding:50px;
 }
 
 
@@ -112,14 +116,8 @@ body{
     background-color:#C6B395;
 }
 
-h2{
-    font-family: 'Playfair Display', serif;
-    color:black;
-    text-decoration: underline;
-    font-size:45px;
-    text-align:center;
+footer h2{
     color:white;
-    text-align:center;
     width:100%;
 }
 
@@ -152,12 +150,24 @@ footer {
     width: 85%;
     margin-left:150px;
 }
+h3{
+    color:black;
+    font-size:30px;
+}
 
+h2{
+    font-family: 'Playfair Display', serif;
+    color:black;
+    text-decoration: underline;
+    font-size:45px;
+    text-align:center;
+}
 
 h1{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-bottom:30px;
 }
 
 
