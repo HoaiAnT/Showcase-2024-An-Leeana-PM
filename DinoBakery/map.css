@@ -93,6 +93,7 @@ form.example button {
 
 .nav a {
     color: rgb(174, 171, 114);
+    text-decoration: none;
 }
 
 
