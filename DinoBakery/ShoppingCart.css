@@ -287,3 +287,14 @@ h2{
 .cartTotal {
     text-align: right;
 }
+
+.cartTotal h3{
+    padding:15px;
+    width: fit-content;
+    border-style:solid;
+    border-width:5px;
+    background-color:white;
+    border-radius:10px;
+    position: relative;
+    left: 37em;
+}
