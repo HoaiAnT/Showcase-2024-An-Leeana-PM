@@ -321,6 +321,16 @@ a:hover {
     align-self: flex-start;
 }
 
+.checked {
+    color: orange;
+}
+.fa-star{
+    border-style:none;
+    background-color:#ecdfc3;
+    margin:-1px;
+    margin-bottom:10px;
+}
+
 @media only screen and (max-width:640px){
     body{
         grid-template-columns: 1fr;
