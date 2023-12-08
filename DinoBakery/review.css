@@ -16,6 +16,8 @@ header {
     padding-bottom:15px;
     font-family: 'Lobster', sans-serif;
 }
+
+
 .fa-solid{
     padding-left:10px;
     padding-right:10px;
@@ -30,6 +32,7 @@ header {
     background-color:white;
 }
 
+
 .cart .fa-solid{
     font-size: 50px;
     margin-left:5px;
@@ -38,27 +41,36 @@ header {
     background-color:#554536;
 }
 
+
 .bar .fa-solid{
     margin-right:100px;
     border-style:none;
     background-color: #554536;
     font-size:50px;
 }
+
+
 .loca .fa-solid{
     border-style:none;
     background-color:#554536;
     font-size:50px;
     margin-left:150px;
 }
+
+
+
 .search {
     margin-right:50px;
     margin-left:20px;
 }
   
+
   * {
     box-sizing: border-box;
   }
   
+
+
 form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
@@ -68,6 +80,8 @@ form.example input[type=text] {
     background: #f1f1f1;
 }
   
+
+
 form.example button {
     float: left;
     width: 20%;
@@ -80,6 +94,8 @@ form.example button {
     cursor: pointer;
     border-style: solid;
 }
+
+
 .nav{
     display: flex;
     flex-wrap: wrap;
@@ -89,11 +105,23 @@ form.example button {
     font-size:30px;
     margin-bottom:100px;
     padding-bottom:25px;
-    padding-top: 60px;;
+    padding-top: 50px;;
 }
+
 
 .nav a {
     color: rgb(174, 171, 114);
+}
+
+
+
+a:hover {
+    color: #3e77bd;
+}
+
+
+.nav{
+    background-color: #554536;
 }
 
 header{
@@ -121,6 +149,7 @@ footer h2{
     width:100%;
 }
 
+
 table {
     display: table;
     border-collapse: separate;
@@ -129,12 +158,16 @@ table {
     border-spacing: 2px;
     border-color: gray;
 }
+
+
 .community{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
 }
+
+
 footer {    
     display:flex;
     justify-content:space-evenly;
@@ -150,10 +183,13 @@ footer {
     width: 85%;
     margin-left:150px;
 }
+
+
 h3{
     color:black;
     font-size:30px;
 }
+
 
 h2{
     font-family: 'Playfair Display', serif;
