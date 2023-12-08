@@ -243,7 +243,7 @@ a.pine:hover {
     border-radius: 2em;
     text-align: center;
     position: absolute;
-    left: 42em;
+    left: 48em;
     top: 34em;
 }
 
@@ -259,7 +259,7 @@ a.pine:hover {
 
 .leaf {
     position: absolute;
-    left: 41em;
+    left: 47em;
     top: 33em;
     z-index: -1;
     object-fit: fill;
@@ -276,14 +276,14 @@ a.pine:hover {
     text-align: center;
     position: absolute;
     left: 11.5em;
-    top: 56em;
+    top: 59em;
 }
 
 
 .display {
     position: absolute;
-    left: 33.5em;
-    top: 54em;
+    left: 37em;
+    top: 56.5em;
 }
 
 
@@ -291,7 +291,7 @@ a.pine:hover {
 .leafy {
     position: absolute;
     left: 10em;
-    top: 55em;
+    top: 58em;
     z-index: -1;
     object-fit: fill;
     width: 21.5em;
@@ -306,29 +306,29 @@ a.pine:hover {
     text-align: center;
     width: fit-content;
     position: relative;
-    top: 32em;
-    left: 42em;
+    top: 36em;
+    left: 48.5em;
 
 }
 
 
 .leafeon {
     position: relative;
-    left: 40.5em;
-    top: 16em;
+    left: 47em;
+    top: 20em;
     z-index: -1;
     object-fit: fill;
     width: 21.5em;
     height: 17em;
-    margin-bottom: 19em;
+    margin-bottom: 26em;
 }
 
 
 
 .bread {
     position: relative;
-    left: 9.5em;
-    top: 49em;
+    left: 10em;
+    top: 54em;
 }
 
 
