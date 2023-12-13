@@ -525,3 +525,10 @@ form.example::after {
 .prodPrice::before {
     content: '$';
 }
+
+
+@media only screen and (max-width:640px){
+
+    
+
+}

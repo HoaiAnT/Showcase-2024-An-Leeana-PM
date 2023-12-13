@@ -181,3 +181,9 @@ h1{
     gap: 1em;
     margin-bottom: 2rem;
 }
+
+@media only screen and (max-width:640px){
+
+    
+
+}

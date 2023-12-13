@@ -306,8 +306,7 @@ table {
 
 @media only screen and (max-width:640px){
     body{
-        grid-template-columns: 1fr;
-        padding: 3em;
+        
     }
     
 }
