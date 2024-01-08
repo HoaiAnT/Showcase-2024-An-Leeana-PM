@@ -580,17 +580,16 @@ form.example::after {
 
     .oreo{
         transform:scale(0.5);
-        position: relative;
-        right: 3cm;
+        position: absolute;
+        right:1px;
         display: flex;
         flex-wrap: wrap;
+        width: 150%;
+        
     }
 
     .or1{
-        position: relative;
-        right:3cm;
-        text-wrap: ;
-        padding:8cm;
+
     }
 
     #oreocakeyum{
