@@ -16,34 +16,30 @@ header {
     padding-bottom:15px;
     font-family: 'Lobster', sans-serif;
 }
-
-
-.fa-solid{
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:5px;
-    padding-bottom:5px;
-    margin-top:10px;
-    margin-left:120px;
-    font-size:25px;
-    color:black;
-    border-style:solid;
-    border-radius:10px;
-    background-color:white;
+.fa-solid {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 25px;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
 }
-
 
 .cart .fa-solid{
     font-size: 50px;
     margin-left:5px;
     color:black;
     border-style:none;
-    background-color:#554536;
 }
 
 
 .bar .fa-solid{
-    margin-right:100px;
+    margin-right:10px;
     border-style:none;
     background-color: #554536;
     font-size:50px;
@@ -52,7 +48,6 @@ header {
 
 .loca .fa-solid{
     border-style:none;
-    background-color:#554536;
     font-size:50px;
     margin-left:150px;
 }
@@ -304,82 +299,98 @@ table {
     margin-bottom:10px;
 }
 
-@media only screen and (max-width:640px) {
 
-    .navigationmenu{
-        font-size: 2em;
+    @media only screen and (max-width:640px) {
+
+        .navigationmenu{
+            font-size: 1em;
+        }
+    
+    
+        header {
+            display: flex;
+            position:relative;
+            justify-content: space-around;
+            font-size: 2em;
+            height: 3em;
+            flex: 1;
+        }
+        .cart{
+            font-size: 1cm;
+            position: relative;
+            border-style:solid;
+            border-color: rgb(174, 171, 114);
+            border-radius: 4px;
+            background-color: white;
+            border-width:3px;
+            padding: 2px;
+        }
+    
+        .cart a{ 
+            color: black;
+        }
+    
+        .cart a:hover{
+            color: #46d0e2;
+        }
+    
+        .loca{
+            border-style:solid;
+            border-color: rgb(174, 171, 114);
+            border-radius: 4px;
+            background-color: white;
+            border-width:3px;
+            padding-right: -1%;
+        }
+    
+    
+        .loca a{
+            color: black;
+        }
+    
+        .loca a:hover{
+            color: #46d0e2;
+        }
+    
+        .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            font-size: 2em;
+        }
+    
+        .nav a {
+            text-align: center;
+            padding-left: 1em;
+            font-size: 30px;
+        }
+    
+        .side{
+            position:relative;
+            top: 2em;
+        }
+    
+        .sidebar{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        footer{
+            margin:40px;
+        }
+        .bar .fa-solid{
+            margin-left:-5px;
+        }
+        .loca .fa-solid{
+            margin:5px;
+        }
+
+        .cart .fa-solid{
+            margin:1px;
+            font-size:3rem;
+        }
+        .cart{
+            margin:20px;
+            top:20px;
+        }
+    
     }
-
-
-    header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        font-size: 3em;
-        height: 3em;
-        flex: 1;
-    }
-    .search{
-        position: relative;
-        left: 1em;
-    }
-
-    .cart{
-        font-size: 1cm;
-        position: relative;
-        border-style:solid;
-        border-color: rgb(174, 171, 114);
-        border-radius: 4px;
-        background-color: white;
-        border-width:3px;
-        padding: 2px
-    }
-
-    .cart a{ 
-        color: black;
-    }
-
-    .cart a:hover{
-        color: #46d0e2;
-    }
-
-    .loca{
-        border-style:solid;
-        border-color: rgb(174, 171, 114);
-        border-radius: 4px;
-        background-color: white;
-        border-width:3px;
-        padding: 2px
-    }
-
-
-    .loca a{
-        color: black;
-    }
-
-    .loca a:hover{
-        color: #46d0e2;
-    }
-
-    .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        font-size: 2em;
-    }
-
-    .nav a {
-        text-align: center;
-        padding-left: 1em;
-        font-size: 30px;
-    }
-
-    .side{
-        position:relative;
-        top: 2em;
-    }
-
-    .sidebar{
-        font-size: 30px;
-        text-align: center;
-    }
-}

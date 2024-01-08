@@ -488,11 +488,6 @@ form.example::after {
         bottom: 3em;
     }
 
-    .search{
-        position: relative;
-        left: 1em;
-    }
-
     .cart{
         font-size: 1cm;
         position: relative;
@@ -554,7 +549,7 @@ form.example::after {
 
     .navigationmenu{
         position: relative;
-        left: 2cm;
+        left: 1cm;
         bottom: 7em;
         display: flex;
         flex-wrap:wrap;

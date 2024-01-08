@@ -18,19 +18,17 @@ header {
     padding-top: 90px;
     background-color: #554536;
     color: rgb(174, 171, 114);
-    font-size:80px;
+    font-size:40px;
     padding-top:15px;
     padding-bottom:15px;
     font-family: 'Lobster', sans-serif;
 }
 
 .fa-solid{
-    padding-left:10px;
-    padding-right:10px;
     padding-top:5px;
     padding-bottom:5px;
     margin-top:10px;
-    margin-left:120px;
+    margin-left:20px;
     font-size:25px;
     color:black;
     border-style:solid;
@@ -42,8 +40,11 @@ header {
     font-size: 50px;
     margin-left:5px;
     color:black;
-    border-style:none;
-    background-color:#554536;
+    border-style:solid;
+    background-color:white;
+    margin:10px;
+    padding:10px;
+    margin-top:50px;
 }
 
 .bar .fa-solid{
@@ -53,10 +54,12 @@ header {
     font-size:50px;
 }
 .loca .fa-solid{
-    border-style:none;
-    background-color:#554536;
     font-size:50px;
     margin-left:150px;
+    border-style:solid;
+    background-color:white;
+    margin:10px;
+    padding:10px;
 }
 
 
@@ -97,11 +100,11 @@ form.example button {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items:center;
-    padding-right: 150px;
+    padding-right: 10px;
     font-size:30px;
     margin-bottom:100px;
     padding-bottom:25px;
-    padding-top: 50px;
+    
 }
 
 .nav a {
@@ -196,6 +199,9 @@ footer {
     text-align: center;
     padding: 1em;
 }
+footer {
+    margin-left:40px;
+}
 
 
 
@@ -282,20 +288,93 @@ h3.story {
 
 @media only screen and (max-width:640px){
 
-    body {
-        
+    .navigationmenu{
+        font-size: 1em;
     }
 
-    header{
+
+    header {
         display: flex;
-        flex-wrap: wrap;
-    }
+        position:relative;
+        justify-content: space-around;
+        font-size: 30px;
     
-    p.story{
+    }
+    .cart{
+        font-size: 1cm;
+        position: relative;
+        border-style:solid;
+        border-color: rgb(174, 171, 114);
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+        padding: 2px;
+    }
 
+    .cart a{ 
+        color: black;
+    }
+
+    .cart a:hover{
+        color: #46d0e2;
+    }
+
+    .loca{
+        border-style:solid;
+        border-color: rgb(174, 171, 114);
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+    }
+
+
+    .loca a{
+        color: black;
+    }
+
+    .loca a:hover{
+        color: #46d0e2;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 2em;
+    }
+
+    .nav a {
+        text-align: center;
+        padding-left: 1em;
+        font-size: 30px;
+    }
+
+    .side{
+        position:relative;
+        top: 2em;
+    }
+
+    .sidebar{
+        font-size: 30px;
+        text-align: center;
     }
 
     footer{
-
+        margin-right:1px;
     }
+    .bar .fa-solid{
+        margin-left:-5px;
+    }
+    .loca .fa-solid{
+        margin:5px;
+    }
+
+    .cart .fa-solid{
+        margin:1px;
+        font-size:3rem;
+    }
+    .cart{
+        margin:20px;
+        top:20px;
+    }
+
 }
