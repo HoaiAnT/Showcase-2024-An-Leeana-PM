@@ -304,9 +304,82 @@ table {
     margin-bottom:10px;
 }
 
-@media only screen and (max-width:640px){
-    body{
-        
+@media only screen and (max-width:640px) {
+
+    .navigationmenu{
+        font-size: 2em;
     }
-    
+
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 3em;
+        height: 3em;
+        flex: 1;
+    }
+    .search{
+        position: relative;
+        left: 1em;
+    }
+
+    .cart{
+        font-size: 1cm;
+        position: relative;
+        border-style:solid;
+        border-color: rgb(174, 171, 114);
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+        padding: 2px
+    }
+
+    .cart a{ 
+        color: black;
+    }
+
+    .cart a:hover{
+        color: #46d0e2;
+    }
+
+    .loca{
+        border-style:solid;
+        border-color: rgb(174, 171, 114);
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+        padding: 2px
+    }
+
+
+    .loca a{
+        color: black;
+    }
+
+    .loca a:hover{
+        color: #46d0e2;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 2em;
+    }
+
+    .nav a {
+        text-align: center;
+        padding-left: 1em;
+        font-size: 30px;
+    }
+
+    .side{
+        position:relative;
+        top: 2em;
+    }
+
+    .sidebar{
+        font-size: 30px;
+        text-align: center;
+    }
 }
