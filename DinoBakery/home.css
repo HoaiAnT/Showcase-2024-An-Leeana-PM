@@ -459,7 +459,7 @@ form.example::after {
     height: 800;
 }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width:640px) {
 
     .navigationmenu{
         font-size: 2em;
@@ -474,6 +474,7 @@ form.example::after {
         height: 3em;
         flex: 1;
     }
+
 
 
     .banner {
@@ -493,9 +494,14 @@ form.example::after {
     }
 
     .cart{
-        font-size: 2cm;
+        font-size: 1cm;
         position: relative;
-
+        border-style:solid;
+        border-color: rgb(174, 171, 114);
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+        padding: 2px
     }
 
     .cart a{ 
@@ -505,6 +511,16 @@ form.example::after {
     .cart a:hover{
         color: #46d0e2;
     }
+
+    .loca{
+        border-style:solid;
+        border-color: rgb(174, 171, 114);
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+        padding: 2px
+    }
+
 
     .loca a{
         color: black;
@@ -523,6 +539,7 @@ form.example::after {
     .nav a {
         text-align: center;
         padding-left: 1em;
+        font-size: 30px;
     }
 
     .side{
@@ -549,5 +566,15 @@ form.example::after {
 
     footer{
         margin-left:10px;
+    }
+
+
+    #products{
+        width: 50%;
+        position:relative;
+        right:6.5cm;
+        bottom:6cm;
+        display:flex;
+        flex-wrap:wrap;
     }
 }
