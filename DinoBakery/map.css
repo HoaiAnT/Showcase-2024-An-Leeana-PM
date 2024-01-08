@@ -184,9 +184,76 @@ h1{
 
 @media only screen and (max-width:640px){
 
-    header{
+    header {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 3em;
+        height: 3em;
+        flex: 1;
     }
 
+    .cart{
+        font-size: 1cm;
+        position: relative;
+        border-style:solid;
+        border-color: rgb(174, 171, 114);
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+        padding: 2px
+    }
+
+    .cart a{ 
+        color: black;
+    }
+
+    .cart a:hover{
+        color: #46d0e2;
+    }
+
+    .loca{
+        border-style:solid;
+        border-color: rgb(174, 171, 114);
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+        padding: 2px
+    }
+
+
+    .loca a{
+        color: black;
+    }
+
+    .loca a:hover{
+        color: #46d0e2;
+    }
+
+    .nav {
+        transform:translatey(-1cm);
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 2em;
+        position: relative;
+        top: 1cm;
+    }
+
+    .nav a {
+        text-align: center;
+        padding-left: 1em;
+        font-size: 30px;
+    }
+    
+    footer{
+        margin-left: 1cm;
+        position: relative;
+        top: 7cm;
+    }
+
+    #mapofisland{
+        position: relative;
+        top: 3cm;
+        transform: scale(160%);
+    }
 }
