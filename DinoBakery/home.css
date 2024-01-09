@@ -632,7 +632,7 @@ form.example::after {
     .chip{
         transform:scale(0.5);
         position: absolute;
-        top: 455%;
+        top: 470%;
         right: -25%;
         display: flex;
         flex-wrap: wrap;
