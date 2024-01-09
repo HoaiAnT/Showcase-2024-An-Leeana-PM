@@ -677,4 +677,8 @@ form.example::after {
     #ShoppingCarticon:hover{
         color: rgb(150, 184, 12);
     }
+
+    footer{
+        top: 600cm;
+    }
 }
