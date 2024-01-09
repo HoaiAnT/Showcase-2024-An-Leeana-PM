@@ -94,7 +94,12 @@ p {
     margin-right: 200px;
     margin-bottom: 100px;
 }
-
+.tira{
+    margin-bottom:100px;
+}
+.oreo{
+    margin-top:100px;
+}
 .sig h3 {
     text-align: center;
     width: 100%;
@@ -339,7 +344,6 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 10px;
-    margin-left: 120px;
     font-size: 25px;
     color: black;
     border-style: solid;
@@ -349,11 +353,9 @@ footer {
 
 .cart .fa-solid {
     font-size: 50px;
-    margin-left: 5px;
     color: black;
     border-style: none;
     background-color: #554536;
-    padding: 9px;
 }
 
 .bar .fa-solid {
