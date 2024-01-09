@@ -526,6 +526,7 @@ form.example::after {
     }
 
     .nav {
+        transform:translatey(-1cm);
         display: flex;
         flex-wrap: nowrap;
         font-size: 2em;
@@ -547,12 +548,26 @@ form.example::after {
         text-align: center;
     }
 
+
+    .side{
+        text-decoration: underline;
+    }
     .navigationmenu{
         position: relative;
         left: 1cm;
         bottom: 7em;
         display: flex;
         flex-wrap:wrap;
+        text-align: center;
+    }
+
+
+    .navigationmenu a{
+        color: blue;
+        text-decoration: none;
+    }
+    .navigationmenu a:hover{
+        color: rgb(191, 230, 33);
     }
 
     #menuname{
@@ -561,6 +576,8 @@ form.example::after {
 
     footer{
         margin-left:10px;
+        position: absolute;
+        top: 2220%;
     }
 
 
@@ -569,14 +586,18 @@ form.example::after {
         position:relative;
         right:6.5cm;
         bottom:6cm;
+        left: 1.5cm;
         display:flex;
         flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .oreo{
         transform:scale(0.5);
         position: absolute;
-        right:1px;
+        top: 310%;
+        right: -25%;
         display: flex;
         flex-wrap: wrap;
         width: 150%;
@@ -584,10 +605,73 @@ form.example::after {
     }
 
     .or1{
-
+    font-size: 1cm;
     }
 
     #oreocakeyum{
+        margin-left: 2cm;
+    }
 
+    .ras{
+        transform:scale(0.5);
+        position: relative;
+        right: 61%;
+        top:3cm;
+        display: flex;
+        flex-wrap: wrap;
+        width: 150%; 
+    }
+
+    #rasberrypannacotta{
+        margin-left: 2cm;
+    }
+
+    .chip{
+        transform:scale(0.5);
+        position: absolute;
+        top: 455%;
+        right: -25%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 150%; 
+    }
+
+    #chocolatechipcookies{
+        margin-left: 2cm;
+    }
+
+    .tiramisu{
+        transform:scale(0.5);
+        position: relative;
+        right: 61%;
+        top:5cm;
+        display: flex;
+        flex-wrap: wrap;
+        width: 150%; 
+    }
+
+    .icon{
+        position: relative;
+        bottom:4cm;
+    }
+
+    #ShoppingCarticon{
+        font-size: 1cm;
+        position: relative;
+        border-style:solid;
+        border-color: black;
+        border-radius: 4px;
+        background-color: white;
+        border-width:3px;
+        padding: 4px;
+        padding-left: 6px;
+        padding-right: 6px;
+        color:black;
+        position: relative;
+        left:3.5cm;
+    }
+
+    #ShoppingCarticon:hover{
+        color: rgb(150, 184, 12);
     }
 }
