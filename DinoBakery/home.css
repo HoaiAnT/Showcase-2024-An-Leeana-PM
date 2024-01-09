@@ -339,7 +339,7 @@ footer {
 }
 
 .fa-solid {
-    padding-left: 10px;
+    padding: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -354,12 +354,13 @@ footer {
 .cart .fa-solid {
     font-size: 50px;
     color: black;
-    border-style: none;
+    border-style: solid;
     background-color: #554536;
+    
 }
 
 .bar .fa-solid {
-    margin-right: 100px;
+    margin-left:10px;
     border-style: none;
     background-color: #554536;
     font-size: 50px;

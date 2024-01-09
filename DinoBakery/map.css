@@ -3,51 +3,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 header {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 90px;
     background-color: #554536;
     color: rgb(174, 171, 114);
-    font-size:80px;
-    padding-top:15px;
-    padding-bottom:15px;
+    font-size: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-family: 'Lobster', sans-serif;
 }
 
-.fa-solid{
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:5px;
-    padding-bottom:5px;
-    margin-top:10px;
-    margin-left:120px;
-    font-size:25px;
-    color:black;
-    border-style:solid;
-    border-radius:10px;
-    background-color:white;
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 150px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    ;
 }
 
-.cart .fa-solid{
-    font-size: 50px;
-    margin-left:5px;
-    color:black;
-    border-style:none;
-    background-color:#554536;
+
+
+.nav a {
+    color: rgb(174, 171, 114);
+    text-decoration: none;
 }
 
-.bar .fa-solid{
-    margin-right:100px;
-    border-style:none;
+
+
+a:hover {
+    color: #3e77bd;
+}
+
+
+.nav {
     background-color: #554536;
-    font-size:50px;
 }
-.loca .fa-solid{
-    border-style:none;
-    background-color:#554536;
-    font-size:50px;
-    margin-left:150px;
+
+.fa-solid {
+    padding: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+
+}
+
+.cart .fa-solid {
+    font-size: 50px;
+    color: black;
+    border-style: solid;
+    border-radius:10px;
+    margin-left:5px;
+}
+
+.bar .fa-solid {
+    margin-left:10px;
+    border-style: none;
+    background-color: #554536;
+    font-size: 50px;
+    padding: 9px;
 }
 .search {
     margin-right:50px;
@@ -78,33 +101,6 @@ form.example button {
     border-left: none;
     cursor: pointer;
     border-style: solid;
-}
-.nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items:center;
-    padding-right: 150px;
-    font-size:30px;
-    margin-bottom:100px;
-    padding-bottom:25px;
-    padding-top: 50px;;
-}
-
-.nav a {
-    color: rgb(174, 171, 114);
-    text-decoration: none;
-}
-
-
-
-a:hover {
-    color: #3e77bd;
-}
-
-
-.nav{
-    background-color: #554536;
 }
 
 
@@ -186,7 +182,6 @@ h1{
 
     header {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
         font-size: 3em;
         height: 3em;
@@ -236,7 +231,7 @@ h1{
         flex-wrap: nowrap;
         font-size: 2em;
         position: relative;
-        top: 1cm;
+        top:30px;
     }
 
     .nav a {
