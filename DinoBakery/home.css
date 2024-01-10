@@ -462,7 +462,7 @@ form.example::after {
     height: 800;
 }
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:700px) {
 
     .navigationmenu{
         font-size: 2em;
@@ -599,7 +599,7 @@ form.example::after {
     .oreo{
         transform:scale(0.5);
         position: absolute;
-        top: 310%;
+        top: 450%;
         right: -25%;
         display: flex;
         flex-wrap: wrap;
@@ -619,7 +619,7 @@ form.example::after {
         transform:scale(0.5);
         position: relative;
         right: 61%;
-        top:3cm;
+        top:21cm;
         display: flex;
         flex-wrap: wrap;
         width: 150%; 
@@ -632,7 +632,7 @@ form.example::after {
     .chip{
         transform:scale(0.5);
         position: absolute;
-        top: 470%;
+        top: 560%;
         right: -25%;
         display: flex;
         flex-wrap: wrap;

@@ -530,7 +530,7 @@ form.example::after {
     position: relative;
     top:2em;
 }
-@media only screen and (max-width:640px){
+@media only screen and (max-width:700px){
 
     .navigationmenu{
         font-size: 1em;
