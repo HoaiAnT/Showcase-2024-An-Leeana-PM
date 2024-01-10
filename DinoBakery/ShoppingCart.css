@@ -297,7 +297,7 @@ h2{
     left: 37em;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:640px){
 
     .navigationmenu{
         font-size: 1em;

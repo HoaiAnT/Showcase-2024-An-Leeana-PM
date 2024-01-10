@@ -599,7 +599,7 @@ form.example::after {
     .oreo{
         transform:scale(0.5);
         position: absolute;
-        top: 450%;
+        top: 310%;
         right: -25%;
         display: flex;
         flex-wrap: wrap;
@@ -619,7 +619,7 @@ form.example::after {
         transform:scale(0.5);
         position: relative;
         right: 61%;
-        top:21cm;
+        top:4cm;
         display: flex;
         flex-wrap: wrap;
         width: 150%; 
@@ -632,7 +632,7 @@ form.example::after {
     .chip{
         transform:scale(0.5);
         position: absolute;
-        top: 560%;
+        top: 455%;
         right: -25%;
         display: flex;
         flex-wrap: wrap;
