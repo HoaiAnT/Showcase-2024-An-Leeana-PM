@@ -35,7 +35,8 @@ function addToCart(e) {
     // prevent default link behavior
     e.preventDefault();
     // get the product attributes from DOM
-    let product = e.target.parentElement.parentElement.children;
+    let product = e.target.parentElement.parentElement.parentElement.children;
+    console.log(product)
     // create an array to hold product attributes
     let attributes = ['name', 'desc', 'price', 'imgSrc'];
     // loop through the product attributes and assign them to the array
